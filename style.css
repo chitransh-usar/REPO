@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    padding-left: 10px;
+    
+
+}
+
+.navbar{
+   
+    display: flex; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-image: url('blackBGforNAV.jpg');
+    z-index: 100;
+}
+ .nav-list{
+    width: 76%;
+    display: flex;
+    align-items: center;
+ }
+
+ .nav-list li{
+    list-style: none;
+    padding: 26px 50px;
+
+ }
+ .nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+
+ }
+ .nav-list li a:hover{
+    text-decoration: none;
+    color: red;
+ }
+ .rightnavbar{
+   width: 26%;
+ }
+ .button{
+    width: 16px;
+    position: absolute;
+   top: 10px;
+   right: 10px;
+   padding-right: 130px;
+   padding-top: 13px;
+
+ }
+ .btn-sm{
+    background-color: rgb(232, 100, 100);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   border: 1px solid red;
+    border-radius: 20%;
+    font-size: 18px;
+    height: 40px;
+    width: 130px;
+  
+   }
+
+ .btn-sm:hover{
+   color: white;
+    background-color: rgb(147, 45, 45)
+}
+
+
+.btn{
+   background-color: rgb(232, 100, 100);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 5px 25px;
+   font-size: 18px;
+   border: 1px solid rgb(156, 55, 55);
+   border-radius: 10px;
+  }
+  .btn:hover{
+   color: white;
+   background-color: rgb(156, 55, 55);
+}
+  
+.para{
+   color: white;
+   padding-top: 250px;
+   padding-left: 20px;
+   font-size: 22px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+  
+.title{
+   color: white;
+   padding-top: 50px;
+   padding-left: 20px;
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button2{
+   padding-left: 24px;
+   padding-top: 5px;
+}
+.lowerpara{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 55px;
+   padding: 30px 50px;
+}
+.lowerright {
+   position: absolute;
+   top: 105vh;
+   right: 40px ;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+.lowerright:hover{
+   color: red
+}
+
+.logo3{
+   display: flex;
+}
+.logo3 img{
+   height: 30vh;
+   width: 60vh;
+   padding: 20px;
+   padding-top: 350px;
+   }
+
+#vyse1{
+   position: absolute;
+   top: 100vh;
+  padding-left: 26px;
+  padding-top: 50vh;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#vyse1para{
+   position: absolute;
+   top: 100vh;
+   padding-left: 26px;
+   padding-top: 55vh;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 22%;
+}
+#vyse2{
+   position: absolute;
+   top: 100vh;
+  padding-left: 145vh;
+  padding-top: 40vh;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 27%;
+}
+#vyse2para{
+   position: absolute;
+   top: 100vh;
+   padding-left: 145vh;
+   padding-top: 55vh;
+   font-size: 19px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 24%;
+}
+#Raze{
+   position: absolute;
+   top: 100vh;
+   padding-left: 50vh;
+   padding-top: 25vh;
+   font-size: 60px;
+  text-shadow: 
+  4px -3px 2px red;
+}
+.headshot{
+   width: 20%;
+   display: flex;
+}
+.headshot img{
+   height: 105px;
+   width: 105px;
+   position: absolute;
+   top: 100vh;
+   padding-left: 93vh;
+   padding-top: 21px;
+}
+#headshot2{
+   color: blueviolet;
+   position: absolute;
+   top: 100vh;
+   padding-left: 108vh;
+   padding-top: 16vh;
+   font-family: monospace;
+   
+}
+.lowerBottomPara{
+   color: white;
+   text-align: right;
+}
+#LBP{
+   font-size: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   width: 20%;
+   padding-left: 135vh;
+   padding-top: 30vh;
+}
+#valo{
+   padding-right: 44vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button3{
+  padding-left: 140vh;
+  padding-top: 6vh;
+ }
+#btn4{
+   background-color: rgb(57, 12, 12);
+   color: white;
+   width: 220px;
+   height: 60px;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+#btn4:hover{
+   background-color: white;
+   color: black;
+}
+.secondlast{
+   color: white;
+}
+#youragent{
+   font-size: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding-top: 30vh;
+   width: 80px;
+   padding-left: 90px;
+}
+#description{
+   position: absolute;
+   right: 40px;
+   top: 333vh;
+   width: 50vh;
+   font-size: 19px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#agent{
+   width: 300px;
+   position: absolute;
+   right: 12.8vh;
+   top: 342vh;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 17px;
+}
+ .btn5{
+   height: 55px;
+   width: 25vh;
+   font-size: 22px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   color: white;
+   background-color: black;
+   } 
+   .button5{
+      padding-left: 18vh;
+      padding-top: 20px;
+   } 
+.btn5:hover{
+   color: black;
+   background-color: white;
+}
+.navbar2{
+   display: flex; 
+   background-image: url('navBG.png');
+   height: 15vh;
+  
+   
+}
+.nav-list-again{
+   width: 76%;
+   display: flex;
+   align-items: center;
+   padding-left:50vh;
+   
+}
+.nav-list-again li{
+   list-style: none;
+   display: block;
+   padding:10px;
+}
+.nav-list-again li a{
+   text-decoration: none;
+   color: white;
+   font-size: 22px;
+   font-family: monospace;
+   padding: 15px;
+   
+}
+.nav-list-again li a:hover{
+   background-color: rgb(65, 57, 57);
+}
+.lastnav{
+   display: flex;
+}
+.last-nav-list-3{
+   display: flex;
+   align-items: center;
+   padding-left: 50vh;
+   padding-top: 54vh;
+  
+}
+.last-nav-list-3 li{
+   list-style: none;
+   display: block;
+   padding: 10px;
+}
+.last-nav-list-3 li a{
+   text-decoration: none;
+   color: white;
+   font-size: 19px;
+   font-family: sans-serif;
+}
+.last-nav-list-3 li a:hover{
+  background-color: rgb(66, 62, 62);
+}
+.riot{
+   color: rgb(126, 106, 106);
+   font-family: Arial, Helvetica, sans-serif;
+   width: 95vh;
+   position: absolute;
+   top: 560vh;
+   text-align: center;
+   padding-left: 52vh;
+}
+.riot p u a {
+   color: rgb(126, 106, 106);
+}
+.riot p u a:hover {
+   color:white
+}
+.riotphoto{
+   width: 20%;
+   display: flex;
+   padding-left: 75vh;
+   position: absolute;
+   top: 541vh;
+   opacity: 0.4;
+}
+.riotphoto img{
+   height: 100px;
+   width: 140px;
+   padding: 5px;
+}
+.riotphoto img:hover{
+   background-color: rgb(77, 73, 67);
+}
+.finish{
+   display: flex;
+   margin: 5px solid rgb(70, 64, 64);
+   padding-left: 69vh;
+   padding-top: 15px;
+}
+.finish img{
+   height: 90px;
+   width: 90px;
+   border: 10px solid rgb(45, 40, 40);
+   border-radius: 13px;
+   padding: 10px;
+}
+.link{
+   position: absolute;
+   top: 520vh;
+   padding-left: 75vh;
+  
+}
+.link img{
+  height: 35px;
+   width: 35px;
+   padding: 10px;
+   border: 2px solid rgb(51, 47, 47);
+   border-radius: 15px;
+}
+.link img:hover{
+   background-color: rgb(42, 40, 38);
+}
+.last button{
+   color: white;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   width: 25vh;
+   height: 10vh;
+   background-color: rgba(90, 76, 76, 0.845);
+}
+.last button:hover{
+   color: black;
+   background-color: rgb(122, 88, 88);
+}
+
+.btn6{
+   padding-left: 88vh;
+   padding-top: 80vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 413px) {
+   .upperbackground{
+      background-image: url('Valo BG 3.jpg');
+      background-size: cover;
+      background-position: center center;
+      width: 114.2%;
+   }
+   .lowerbackground{
+      background-image: url('white BG.jpg');
+      background-size: cover;
+    background-position: 57% center;
+    width: 114.2%;
+   }
+   .lowerBottom{
+      background-image: url('BG3.jpg');
+      background-size: cover;
+      background-position: 32% center;
+      width: 114.2%;
+   }
+   .secondlast{
+      background-image: url('wallpaper for phone.jpg');
+      background-size: cover;
+      background-position: center center;
+      width: 114.2%;
+   }
+   .last{
+      background-image: url('BG6.jpg');
+      background-size: cover;
+      background-position: center center;
+      width: 114.2%;
+   }
+   .lastagain{
+      background-image: url('Black wall.jpg');
+      background-size: cover;
+      background-position: center center;
+      width: 114.2%;
+   }
+   .navbar{
+      transition: all 0.7s ease-out;
+      height: 562px;
+   }
+   .nav-list{
+   flex-direction: column;
+   align-items: baseline;
+   padding-left: 125px;
+  }
+  .h-nav{
+   height: 55px;
+  }
+  .v-class{
+   opacity: 0;
+  }
+.logo{
+   padding-left: 35px;
+}
+.button{
+   padding-top: 1vh;
+   padding-right: 143vh;
+}
+.burger{
+   position: absolute;
+   cursor: pointer;
+   top: 14px;
+   padding-left: 3px;
+}
+.line{
+   width: 33px;
+   background-color: white;
+   height: 4px;
+   margin: 3px 3px;
+}
+.para{
+   color: white;
+    padding-top: 620px;
+    padding-left: 25px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+   color: white;
+   padding-top: 50px;
+   padding-left: 120px;
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button2{
+   padding-left: 120px;
+    padding-top: 5px;
+}
+.lowerBottom img{
+   padding-left: 10vh;
+}
+#LBP{
+   font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 59%;
+    padding-left: 15vh;
+    padding-top: 2vh
+}
+#valo{
+   padding-right: 20vh;
+   
+}
+.button3{
+   padding-left: 14vh;
+    padding-top: 60vh;
+}
+.btn6{
+   padding-left: 12vh;
+   padding-top: 80vh;
+}
+.finish{
+   padding-left: 3vh;
+    padding-top: 20px;
+}
+.nav-list-again {
+   width: 100%;
+   padding-left: 0vh;
+}
+.last-nav-list-3 {
+   padding-left: 0vh;
+   padding-top: 56vh;
+}
+.riot {
+   top: 558vh;
+   padding-left: 2vh;
+   width: 45vh;
+}
+.riotphoto {
+      padding-left: 9vh;
+}
+.link {
+   position: absolute;
+   top: 525vh;
+   padding-left: 8vh;
+}
+.button5 {
+   padding-left: 12vh;
+   padding-top: 262px;
+}
+#youragent {
+   font-size: 86px;
+   padding-top: 2vh;
+   padding-left: 16px;
+}  
+#description {
+   right: -24px;
+   top: 347vh;
+   width: 36vh;
+   font-size: 20px;
+   }
+#agent {
+   width: 300px;
+   right: -7.2vh;
+   top: 382vh;
+   font-size: 16px;
+}
+.logo3 {
+   width: 10%;
+   height: 10%;
+   display: flex;
+   padding-top: 43vh;
+   /* flex-direction: column; */
+}
+.logo3 img{
+   width: 110px;
+   height: 80px;
+   /* padding: px; */
+   padding-top: 200px;
+}
+#Raze{
+   padding-left: 3vh;
+    padding-top: 21vh;
+    font-size: 60px;
+}
+.lowerpara {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 55px;
+   padding: 10px 8px;
+}
+.lowerright{
+   top: 101vh;
+    right: 15px;
+}
+#vyse1 {
+   padding-left: 3px;
+   padding-top: 86.5vh;
+   font-size: 20px;
+}
+#vyse1para {
+   padding-left: 304px;
+   padding-top: 86.5vh;
+   font-size: 17px;
+   width: 44%;
+}
+#vyse2 {
+   padding-left: 2px;
+   padding-top: 62vh;
+   font-size: 21px;
+   width: 60%;
+}
+
+#vyse2para {
+   padding-left: 34vh;
+   padding-top: 63vh;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 36%;
+}
+.headshot{
+   width: 20%;
+   display: flex;
+   
+}
+.headshot img{
+   height: 80px;
+   width: 80px;
+   position: absolute;
+   top: 100vh;
+   padding-left: 42.5vh;
+   padding-top: 2px;
+   }
+#headshot2 {
+   color: white;
+   position: absolute;
+   top: 100vh;
+   padding-left: 42.7vh;
+   padding-top: 66px;
+   font-family: monospace;
+
+}
+.lowerright{
+  opacity: 0;
+
+}
+}
+
+
+
+  
